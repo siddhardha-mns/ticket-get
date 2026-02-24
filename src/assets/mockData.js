@@ -7,12 +7,12 @@ export const TICKETS = [
 ];
 
 export const SERVICE_REQUESTS = [
-    { id: "SRQ-001", title: "New employee onboarding", type: "Onboarding", status: "In Progress", requester: "HR Team", assignee: "IT Support", created: "Feb 19", mine: false },
-    { id: "SRQ-002", title: "Server provisioning - Prod", type: "Infrastructure", status: "Pending Approval", requester: "You", assignee: "DevOps", created: "Feb 17", mine: true },
-    { id: "SRQ-003", title: "Office 365 license batch", type: "Software", status: "Completed", requester: "You", assignee: "Procurement", created: "Feb 10", mine: true },
-    { id: "SRQ-004", title: "Network expansion - 3rd floor", type: "Network", status: "In Progress", requester: "Facilities", assignee: "You", created: "Feb 14", mine: true },
-    { id: "SRQ-005", title: "Backup policy review", type: "Policy", status: "Open", requester: "Security Team", assignee: "Unassigned", created: "Feb 22", mine: false },
-    { id: "SRQ-006", title: "Cloud storage upgrade", type: "Infrastructure", status: "Pending Approval", requester: "Engineering", assignee: "DevOps", created: "Feb 21", mine: false },
+    { id: "SRQ-001", title: "New employee onboarding", type: "Onboarding", status: "In Progress", requester: "HR Team", assignee: "IT Support", created: "Feb 19", mine: false, severity: "Severity 2", project: "Internal HR Portal", billable: false, visibility: "Public", location: "Mumbai" },
+    { id: "SRQ-002", title: "Server provisioning - Prod", type: "Infrastructure", status: "Pending Approval", requester: "You", assignee: "DevOps", created: "Feb 17", mine: true, severity: "Severity 1", project: "E-Commerce Platform Migration", billable: true, visibility: "Private", location: "Global" },
+    { id: "SRQ-003", title: "Office 365 license batch", type: "Software", status: "Completed", requester: "You", assignee: "Procurement", created: "Feb 10", mine: true, severity: "Severity 3", project: "Internal Tools", billable: true, visibility: "Public", location: "Bangalore" },
+    { id: "SRQ-004", title: "Network expansion - 3rd floor", type: "Network", status: "In Progress", requester: "Facilities", assignee: "You", created: "Feb 14", mine: true, severity: "Severity 2", project: "Office Infrastructure", billable: true, visibility: "Public", location: "Mumbai" },
+    { id: "SRQ-005", title: "Backup policy review", type: "Policy", status: "Open", requester: "Security Team", assignee: "Unassigned", created: "Feb 22", mine: false, severity: "Severity 4", project: "Security Compliance", billable: false, visibility: "Private", location: "Global" },
+    { id: "SRQ-006", title: "Cloud storage upgrade", type: "Infrastructure", status: "Pending Approval", requester: "Engineering", assignee: "DevOps", created: "Feb 21", mine: false, severity: "Severity 1", project: "Mobile App Backend API", billable: true, visibility: "Public", location: "US-West" },
 ];
 
 export const PROJECTS = [
